@@ -1,0 +1,27 @@
+Chromatic enseña teoría del color haciendo — y luego te entrega las herramientas.
+
+EL CICLO
+Apréndelo: siete lecciones estructuradas, del círculo cromático al contraste WCAG.
+Constrúyelo: rueda de armonías con espaciado HSV y OKLCH perceptual, paletas tonales,
+estilos, extracción desde fotos, degradados en tres espacios de color.
+Póngelo: el Estudio de temas convierte un color semilla en un esquema Material 3
+completo y verificado — y puede cambiar el tema de esta misma app.
+
+HERRAMIENTAS INCLUIDAS
+• Explorador de armonías — seis esquemas clásicos, espaciado OKLCH, vista segura para daltonismo
+• Comprobador de contraste — cocientes WCAG 2.1, APCA, vista previa en vivo, autocorrección a AA
+• Cuadrícula de contraste — las 100 parejas tonales, medidas y calificadas
+• Creador de paletas — escalas tonales, extracción desde fotos, seis estilos,
+  exportación a JSON / CSS / Compose / XML Android / PNG
+• Simulador de visión — modelo Machado preciso sobre colores, vista previa global en vivo
+• Laboratorios de mezclas e ilusiones — física aditiva vs sustractiva, contraste
+  simultáneo, movido por tus propias manos
+• Cuatro juegos — conocimiento, igualar tonos, nombrar colores, discriminación de luminosidad
+
+PRIVADO POR DISEÑO
+Chromatic no tiene permiso de internet. El propio Android le impide conectarse.
+Sin cuentas, sin analíticas, sin rastreo. Los informes de fallos permanecen en tu
+dispositivo salvo que decidas compartirlos.
+
+UN PAGO, TUYO PARA SIEMPRE
+Todo incluido, actualizaciones gratuitas. Sin suscripciones, sin cuentas.

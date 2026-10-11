@@ -1,0 +1,34 @@
+<resources>
+    <string name="settings_title">Settings</string>
+    <string name="appearance">Appearance</string>
+    <string name="theme_follow_system">Follow system</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="dynamic_color">Dynamic color</string>
+    <string name="dynamic_color_desc">Derive the palette from your wallpaper (Android 12+)</string>
+    <string name="applied_theme_custom">App theme: Custom (from Theme Studio)</string>
+    <string name="reset_theme">Reset to default theme</string>
+    <string name="vision_preview">Vision preview</string>
+    <string name="vision_preview_desc">Render the entire app through a color-vision filter — experience your own UI as other people do. Approximate sRGB preview (Android 12+); the Vision tab runs the precise Machado model on individual colors.</string>
+    <string name="preview_off">Off</string>
+    <string name="about">About</string>
+    <string name="about_body">Chromatic teaches color theory by doing: lessons, a harmony wheel, WCAG and APCA contrast tooling, tonal palettes, perceptual gradient blending, and vision simulations — all powered by a fully unit-tested color engine.</string>
+    <string name="fully_offline">Fully offline — no data ever leaves your device unless you choose to share it.</string>
+    <string name="crash_reports">Crash reports</string>
+    <string name="crash_reports_empty">No crash reports. If the app ever closes unexpectedly, the details will be collected here — nothing is sent anywhere unless you share it.</string>
+    <string name="crash_share">Share crash reports</string>
+    <string name="crash_clear">Clear all</string>
+    <string name="crash_none_to_share">No crash reports to share</string>
+    <string name="help">Help</string>
+    <string name="help_reference">Quick reference</string>
+    <string name="help_ref_aa">AA body text: 4.5:1 · AA large text: 3.0:1 · AAA body text: 7.0:1 · UI components: 3.0:1</string>
+    <string name="help_ref_tint">Tint = +white (lighter) · Shade = +black (darker) · Tone = +gray (duller)</string>
+    <string name="help_ref_603010">60-30-10: dominant 60%, secondary 30%, accent 10%.</string>
+    <string name="help_contact">Contact</string>
+    <string name="help_email">Email support</string>
+    <string name="help_issues">Report an issue on GitHub</string>
+    <string name="help_faq_accounts">Do I need an account? No — Chromatic has no accounts and no network access.</string>
+    <string name="help_faq_storage">Where are my palettes stored? Only on this device, in the app\'s private storage, included in Android backups.</string>
+    <string name="help_faq_internet">Why is there no internet permission? By design: the app cannot go online, so your colors never leave your device.</string>
+    <string name="back">Back</string>
+</resources>

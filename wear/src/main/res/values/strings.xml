@@ -1,0 +1,5 @@
+<resources>
+    <string name="wear_app_name">Chromatic</string>
+    <string name="tile_label">Color of the day</string>
+    <string name="complication_label">Color of the day</string>
+</resources>

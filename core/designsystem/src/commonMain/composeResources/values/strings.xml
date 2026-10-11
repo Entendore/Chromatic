@@ -1,0 +1,31 @@
+<resources>
+    <string name="copy_hex_code">Copy hex code</string>
+    <string name="inspect_color">Inspect color</string>
+    <string name="swatch_selected">Selected</string>
+    <string name="chip_passes">passes</string>
+    <string name="chip_fails">does not pass</string>
+    <string name="picker_tab_hsl">HSL</string>
+    <string name="picker_tab_oklch">OKLCH</string>
+    <string name="picker_cancel">Cancel</string>
+    <string name="picker_use_color">Use color</string>
+    <string name="picker_gamut_note">Chroma is capped at the edge of sRGB for this lightness and hue — every color here is displayable.</string>
+    <string name="axis_hue">Hue</string>
+    <string name="axis_saturation">Saturation</string>
+    <string name="axis_lightness">Lightness</string>
+    <string name="axis_chroma">Chroma</string>
+    <string name="axis_lightness_oklch">Lightness (L)</string>
+    <string name="axis_chroma_oklch">Chroma (C)</string>
+    <string name="axis_hue_oklch">Hue (H)</string>
+    <string name="cvd_normal">Normal trichromacy</string>
+    <string name="cvd_protanopia">Protanopia</string>
+    <string name="cvd_deuteranopia">Deuteranopia</string>
+    <string name="cvd_tritanopia">Tritanopia</string>
+    <string name="cvd_achromatopsia">Achromatopsia</string>
+    <string name="export_json">JSON</string>
+    <string name="export_css">CSS</string>
+    <string name="export_compose">Compose</string>
+    <string name="export_xml">XML</string>
+    <string name="inspector_on_white">on white %1$s:1</string>
+    <string name="inspector_on_black">on black %1$s:1</string>
+    <string name="inspector_under_cvd">Under color-vision deficiency</string>
+</resources>

@@ -1,0 +1,165 @@
+<resources>
+    <string name="copied">%1$s copiado</string>
+    <string name="random_color">Color aleatorio</string>
+    <string name="swap_colors">Intercambiar colores</string>
+    <string name="percent_of_image">%1$d%% de la imagen</string>
+    <string name="use_as_base">Usar como base</string>
+    <string name="delete">Eliminar</string>
+    <string name="export">Exportar %1$s</string>
+    <string name="inspected_hint">Toca una muestra para copiar · mantén pulsado para inspeccionar</string>
+
+    <string name="harmony_title">Explorador de armonías</string>
+    <string name="harmony_wheel_hint">Arrastra en la rueda — el ángulo fija el tono, la distancia al centro fija la saturación.</string>
+    <string name="axis_hue">Tono</string>
+    <string name="axis_lightness_value">Luminosidad (valor)</string>
+    <string name="harmony_scheme">Esquema de armonía</string>
+    <string name="hue_spacing">Espaciado del tono</string>
+    <string name="mode_hsv">HSV</string>
+    <string name="mode_oklch">OKLCH</string>
+    <string name="mode_hsv_note">Pasos de tono medidos en la rueda clásica del pintor — lo que hacen la mayoría de herramientas.</string>
+    <string name="mode_oklch_note">Pasos de tono medidos en espacio perceptual — cada paso es igual de visible al ojo.</string>
+    <string name="harmony_palette">Paleta generada (toca una muestra para copiar)</string>
+    <string name="harmony_applied">Aplicada a una interfaz real</string>
+    <string name="preview_cvd_safe">Vista previa: versión segura para daltonismo</string>
+    <string name="hide_cvd_safe">Ocultar versión CVD</string>
+    <string name="cvd_safe_result">Se rotaron %1$d tono(s) para que cada par mantenga ΔE ≥ 0,10 con deuteranopía (menor distancia simulada ahora %2$s). Compara con la tira superior en el simulador de visión.</string>
+
+    <string name="harmony_complementary">Complementaria</string>
+    <string name="harmony_analogous">Análoga</string>
+    <string name="harmony_triadic">Tríada</string>
+    <string name="harmony_split">Complementaria dividida</string>
+    <string name="harmony_tetradic">Tetrádica</string>
+    <string name="harmony_mono">Monocromática</string>
+    <string name="harmony_complementary_desc">Dos tonos opuestos en el círculo. Contraste y energía máximos — usa uno como dominante y el otro con moderación como acento.</string>
+    <string name="harmony_analogous_desc">Tres vecinos en el círculo. Tranquilo y cohesivo — elige uno dominante para que el esquema no se lave.</string>
+    <string name="harmony_triadic_desc">Tres tonos a 120°. Vibrante pero equilibrado — deja que un color lidere y apaga los otros dos.</string>
+    <string name="harmony_split_desc">Una base más los dos vecinos de su complementario. Casi tanto contraste como el complementario, con menos tensión visual.</string>
+    <string name="harmony_tetradic_desc">Dos parejas complementarias (90°). El esquema más rico — solo funciona cuando un color domina claramente.</string>
+    <string name="harmony_mono_desc">Un solo tono en múltiples tintes y sombras. Elegante sin esfuerzo — diferéncialos por luminosidad, no por tono.</string>
+
+    <string name="contrast_title">Comprobador de contraste</string>
+    <string name="foreground">Primer plano</string>
+    <string name="background">Fondo</string>
+    <string name="contrast_ratio">cociente de contraste</string>
+    <string name="auto_fix_aa">Corregir primer plano a AA (4,5:1)</string>
+    <string name="fix_feedback">Ajustado a %1$s — ahora %2$s sobre el fondo.</string>
+    <string name="check_vision">Comprobar esta pareja con el simulador de visión</string>
+    <string name="wcag_note">Umbrales WCAG 2.1 — texto: 4,5:1 (AA), 7:1 (AAA). Texto grande (≥18pt negrita o 24pt): 3:1. Componentes de UI e iconos: 3:1 contra colores adyacentes.</string>
+    <string name="apca_note">APCA es el modelo perceptual propuesto para WCAG 3 — tiene mejor cuenta de la polaridad y el renderizado que el cociente 2.x. Valores ≥ 75 Lc para texto; ≥ 60 para texto grande.</string>
+    <string name="apca_polarity_dark">texto oscuro sobre fondo claro</string>
+    <string name="apca_polarity_light">texto claro sobre fondo oscuro</string>
+    <string name="live_preview">Vista previa en vivo</string>
+    <string name="pick_color">Elegir color</string>
+
+    <string name="grid_title">Cuadrícula de contraste</string>
+    <string name="grid_intro">Cada color tonal como texto (filas) sobre cada color tonal como fondo (columnas). Mira la frontera de aprobado abrazar la diagonal — luminosidades parecidas nunca se leen.</string>
+    <string name="grid_view_real">Colores reales</string>
+    <string name="grid_view_heatmap">Mapa de calor</string>
+    <string name="grid_copy_pair">Copiar pareja (%1$s sobre %2$s)</string>
+    <string name="grid_same_tone">Mismo tono = 1:1 — la diagonal siempre es ilegible.</string>
+    <string name="grid_note">Las filas eligen el texto, las columnas el fondo. Solo los pares lejanos en luminosidad pasan — por eso los sistemas de diseño reservan los tonos oscuros para texto sobre superficies claras.</string>
+    <string name="grade_fail">Suspenso</string>
+    <string name="grade_large">Solo grande</string>
+    <string name="grade_aa">AA</string>
+    <string name="grade_aaa">AAA</string>
+    <string name="grid_cell_a11y">Texto tono %1$d sobre tono %2$d — cociente %3$s a 1, %4$s</string>
+
+    <plurals name="grid_pairings_pass">
+        <item quantity="one">%1$d de 100 combinaciones cumple AA para texto.</item>
+        <item quantity="other">%1$d de 100 combinaciones cumplen AA para texto.</string>
+        </item>
+    </plurals>
+
+    <string name="builder_title">Creador de paletas</string>
+    <string name="base_color_label">Base</string>
+    <string name="tonal_scale">Escala tonal (estilo Material)</string>
+    <string name="harmony_variations">Variaciones de armonía</string>
+    <string name="extract_from_photo">Extraer de una foto</string>
+    <string name="choose_photo">Elegir una foto</string>
+    <string name="extract_hint">Toca una muestra para hacerla la base y generar una escala tonal desde ella.</string>
+    <string name="style_palettes">Paletas por estilo</string>
+    <string name="regenerate">Regenerar</string>
+    <string name="save">Guardar</string>
+    <string name="name_label">Nombre</string>
+    <string name="saved_palettes">Paletas guardadas</string>
+    <string name="delete_palette">Eliminar %1$s</string>
+    <string name="palette_deleted">%1$s eliminada</string>
+    <string name="undo">Deshacer</string>
+    <string name="send_to_theme_studio">Enviar base al Estudio de temas</string>
+    <string name="axis_saturation">Saturación</string>
+    <string name="axis_lightness">Luminosidad</string>
+    <string name="pick_base">Elegir color base</string>
+    <string name="style_pastel">Pastel</string>
+    <string name="style_neon">Neón</string>
+    <string name="style_earth">Tierra</string>
+    <string name="style_jewel">Gema</string>
+    <string name="style_mono">Monocromo</string>
+    <string name="style_vintage">Vintage</string>
+
+    <string name="gradient_title">Laboratorio de degradados</string>
+    <string name="from">Desde</string>
+    <string name="to">Hasta</string>
+    <string name="blend_srgb">sRGB</string>
+    <string name="blend_linear">sRGB lineal</string>
+    <string name="blend_oklab">OKLab</string>
+    <string name="blend_srgb_note">Lo que hacen la mayoría de herramientas — rápido, pero los puntos medios se oscurecen.</string>
+    <string name="blend_linear_note">Mezcla de luz físicamente correcta — los puntos medios se mantienen brillantes.</string>
+    <string name="blend_oklab_note">Uniforme perceptualmente — la rampa más suave y pareja.</string>
+    <string name="gradient_why">Por qué importa</string>
+    <string name="gradient_why_body">Mezclar en sRGB promedia los números almacenados, así que los puntos medios se vuelven oscuros y lodazales. La mezcla en luz lineal es físicamente correcta. La mezcla en OKLab es perceptualmente pareja — mira saltar la muestra media entre modos; ese salto es el banding que publicarías.</string>
+    <string name="copy_css_gradient">Copiar degradado CSS (%1$s)</string>
+    <string name="css_copied">CSS copiado</string>
+
+    <string name="studio_title">Estudio de temas</string>
+    <string name="studio_intro">Toda app Material 3 empieza en un color semilla. Mira cómo un solo tono se convierte en un esquema completo — con cada pareja legible verificada por la misma matemática WCAG de la lección 6.</string>
+    <string name="seed_hue">Tono semilla</string>
+    <string name="seed_saturation">Saturación semilla</string>
+    <string name="scheme_preview">Vista previa del esquema</string>
+    <string name="light_label">Claro</string>
+    <string name="dark_label">Oscuro</string>
+    <string name="contrast_verification">Verificación de contraste</string>
+    <string name="verified_note">Si alguna pareja cayó por debajo de 4,5:1, el generador ya ajustó su luminosidad — esta lista es prueba, no decoración.</string>
+    <string name="copy_theme_code">Copiar código de tema Compose claro + oscuro</string>
+    <string name="theme_code_copied">Tema Compose copiado — pégalo en tu ui/theme</string>
+    <string name="studio_how">Cómo funciona: la semilla se convierte en un tono OKLCH. Se construyen cinco paletas tonales (primaria vívida, secundaria apagada, terciaria rotada, superficie casi neutra y variante), los roles toman tonos siguiendo las relaciones de luminosidad de Material 3, y el croma se mapea al gamut — nunca recortado — así el tono sobrevive.</string>
+    <string name="apply_to_chromatic">Aplicar a Chromatic</string>
+    <string name="theme_applied">Aplicado — esta app ahora usa tu esquema</string>
+    <string name="seed_from_photo">Semilla desde una foto</string>
+
+    <string name="mix_title">Laboratorio de mezclas</string>
+    <string name="mix_intro">Los mismos dos ingredientes, dos físicas distintas. Las pantallas SUMAN luz (lección: RGB). Los pigmentos la QUITAN — cada capa filtra lo que la siguiente puede reflejar.</string>
+    <string name="mix_presets">Prueba una receta clásica</string>
+    <string name="ingredient_a">Ingrediente A</string>
+    <string name="ingredient_b">Ingrediente B</string>
+    <string name="results_equal">Resultados — mezcla al 50%</string>
+    <string name="light_added">Luz sumada</string>
+    <string name="screens_lights">Pantallas y luces de escenario</string>
+    <string name="pigment_mixed">Pigmento mezclado</string>
+    <string name="paint_ink">Pintura, tinta, filtros</string>
+    <string name="mix_notice">Qué observar</string>
+    <string name="mix_notice_body">• Aditiva: más luz → más brillo. Luces complementarias suman blanco.\n• Sustractiva: más pigmento → más oscuro. Los filtros complementarios se anulan a negro.\n• Por eso la imprenta usa CMY y las pantallas RGB — misma rueda, reglas de mezcla opuestas.</string>
+    <string name="preset_red_green">Rojo + Verde</string>
+    <string name="preset_blue_yellow">Azul + Amarillo</string>
+    <string name="preset_red_cyan">Rojo + Cian</string>
+
+    <string name="illusion_title">Laboratorio de ilusiones</string>
+    <string name="illusion_intro">La lección 4 dijo que el mismo color cambia con sus vecinos. No te fíes de la lección — muévelo tú.</string>
+    <string name="on_light_surround">Sobre entorno claro</string>
+    <string name="on_dark_surround">Sobre entorno oscuro</string>
+    <string name="reveal">Revelar — ambos centros son idénticos</string>
+    <string name="illusion_revealed">El gris izquierdo parecía más claro sobre el entorno oscuro, el derecho más oscuro sobre el claro — y ninguno se movió. Tu sistema visual reporta contraste, no valores absolutos.</string>
+    <string name="illusion_why">Por qué importa</string>
+    <string name="illusion_why_body">Por eso existe el comprobador de contraste: nunca juzgues un color aislado, y nunca confíes en \"se ve bien\" — mídelo. Copia el color central al comprobador contra ambos entornos y verás el cociente apenas moverse mientras tu percepción oscila.</string>
+    <string name="surround_hue">Tono del entorno</string>
+    <string name="surround_saturation">Saturación del entorno</string>
+
+    <string name="simulate_title">Simulador de visión</string>
+    <string name="simulate_intro">Cerca del 8% de los hombres y el 0,5% de las mujeres perciben el color distinto. Un diseño que depende solo del tono los excluye.</string>
+    <string name="simulate_reference">Paleta de referencia — original vs. simulada (modelo preciso de Machado)</string>
+    <string name="original">Original</string>
+    <string name="seen_with">Visto con %1$s</string>
+    <string name="try_photo">Pruébalo con una foto</string>
+    <string name="choose_another_photo">Elegir otra foto</string>
+    <string name="photo_original">Foto original</string>
+    <string name="photo_simulated">Foto vista con %1$s (vista previa sRGB aproximada)</string>
+</resources>

@@ -1,0 +1,14 @@
+# Release Checklist
+- [ ] ./gradlew spotlessApply — committed
+- [ ] Engine + unit + flow tests green (CI exact commands)
+- [ ] Roborazzi verified (or re-recorded via the reviewed re-record workflow)
+- [ ] koverVerify green — engine ≥85, global ≥60, gated features ≥50
+- [ ] Baseline profile REGENERATED if shell/hot-path composition changed
+- [ ] lint-baseline.xml regenerated + diff reviewed (standing rule, v18 §0d)
+- [ ] CHANGELOG entry present (release notes generate from it — non-empty enforced)
+- [ ] Tag push → release workflow: size ✓, permissions ✓, language splits ✓, listing ✓
+- [ ] Crash reports submitted via issues reviewed: every new top issue links a fix or accepted-risk note (v17)
+- [ ] QA on debug build: en-XA + ar-XB pseudo-locales (v16 §4)
+- [ ] Review prompt verified on a Play-signed install; never fires without Play (v17 §5)
+- [ ] Console: price set ($4.99) — the ONE step code cannot do (v18 §6)
+- [ ] Promote draft → staged 10% → 100%; respond to reviews within 48h in launch month

@@ -1,0 +1,21 @@
+default_platform(:android)
+
+# Listing-text updates are independent of binary releases (v15 §5 split).
+lane :metadata do
+  supply(
+    skip_upload_apk: true,
+    skip_upload_aab: true,
+    skip_upload_images: false,
+    metadata_path: "fastlane/metadata/android"
+  )
+end
+
+# Screenshots from the test suite (v18 §5) — requires a connected device/emulator:
+#   ./gradlew :app:connectedDebugAndroidTest -Pandroid.testInstrumentationRunnerArguments.class=com.example.chromatic.screenshots.StoreScreenshotsTest
+# then: fastlane screengrab
+lane :screenshots do
+  screengrab(
+    locales: ['en-US', 'es-ES'],
+    clear_previous_screenshots: true
+  )
+end

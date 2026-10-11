@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Chromatic</string>
+    <string name="nav_learn">Aprender</string>
+    <string name="nav_quiz">Test</string>
+    <string name="nav_harmony">Armonía</string>
+    <string name="nav_contrast">Contraste</string>
+    <string name="nav_build">Crear</string>
+    <string name="shortcut_contrast">Contraste</string>
+    <string name="shortcut_contrast_long">Comprobar contraste</string>
+    <string name="shortcut_harmony">Armonía</string>
+    <string name="shortcut_harmony_long">Explorar armonías de color</string>
+    <string name="shortcut_vision">Visión</string>
+    <string name="shortcut_vision_long">Simular visión de color</string>
+    <string name="widget_description">El color de hoy con su paleta tonal</string>
+    <string name="widget_caption">El color de hoy — toca para explorar</string>
+</resources>

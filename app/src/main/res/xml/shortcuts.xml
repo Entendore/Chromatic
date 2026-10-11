@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="contrast"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_droplet"
+        android:shortcutShortLabel="@string/shortcut_contrast"
+        android:shortcutLongLabel="@string/shortcut_contrast_long">
+        <intent
+            android:action="com.example.chromatic.OPEN_ROUTE"
+            android:targetPackage="com.example.chromatic"
+            android:targetClass="com.example.chromatic.MainActivity" />
+        <extra android:name="com.example.chromatic.extra.ROUTE" android:value="contrast" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="harmony"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_droplet"
+        android:shortcutShortLabel="@string/shortcut_harmony"
+        android:shortcutLongLabel="@string/shortcut_harmony_long">
+        <intent
+            android:action="com.example.chromatic.OPEN_ROUTE"
+            android:targetPackage="com.example.chromatic"
+            android:targetClass="com.example.chromatic.MainActivity" />
+        <extra android:name="com.example.chromatic.extra.ROUTE" android:value="harmony" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="vision"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_droplet"
+        android:shortcutShortLabel="@string/shortcut_vision"
+        android:shortcutLongLabel="@string/shortcut_vision_long">
+        <intent
+            android:action="com.example.chromatic.OPEN_ROUTE"
+            android:targetPackage="com.example.chromatic"
+            android:targetClass="com.example.chromatic.MainActivity" />
+        <extra android:name="com.example.chromatic.extra.ROUTE" android:value="vision" />
+    </shortcut>
+</shortcuts>
