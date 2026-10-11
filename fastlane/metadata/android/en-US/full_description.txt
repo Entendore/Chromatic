@@ -1,0 +1,27 @@
+Chromatic teaches color theory by doing — then hands you the tools.
+
+THE LOOP
+Learn it: seven structured lessons, from the color wheel to WCAG contrast.
+Build it: a harmony wheel with HSV and perceptual OKLCH spacing, tonal palettes,
+style moods, photo extraction, gradient blending in three color spaces.
+Wear it: Theme Studio turns one seed color into a complete, contrast-verified
+Material 3 scheme — and can re-theme this very app with it.
+
+TOOLS INCLUDED
+• Harmony explorer — six classic schemes, OKLCH hue spacing, color-blind-safe preview
+• Contrast checker — WCAG 2.1 ratios, APCA, live preview, one-tap auto-fix to AA
+• Contrast grid — all 100 tone pairings, measured and graded
+• Palette builder — tonal scales, photo extraction, six style moods, export to
+  JSON / CSS / Compose / Android XML / PNG
+• Vision simulator — precise Machado CVD model on colors, live whole-app preview
+• Mix lab & Illusion lab — additive vs subtractive physics, simultaneous contrast,
+  driven by your own hands
+• Four quiz games — knowledge, hue matching, naming, lightness discrimination
+
+PRIVATE BY DESIGN
+Chromatic holds no internet permission. Android itself prevents it from going
+online. No accounts, no analytics, no tracking. Crash reports stay on your device
+unless you choose to share them.
+
+ONE PAYMENT, YOURS FOREVER
+Everything included, free updates. No subscriptions, no accounts.

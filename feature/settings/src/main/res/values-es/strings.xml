@@ -1,0 +1,34 @@
+<resources>
+    <string name="settings_title">Ajustes</string>
+    <string name="appearance">Apariencia</string>
+    <string name="theme_follow_system">Según el sistema</string>
+    <string name="theme_light">Claro</string>
+    <string name="theme_dark">Oscuro</string>
+    <string name="dynamic_color">Color dinámico</string>
+    <string name="dynamic_color_desc">Deriva la paleta de tu fondo de pantalla (Android 12+)</string>
+    <string name="applied_theme_custom">Tema de la app: Personalizado (del Estudio de temas)</string>
+    <string name="reset_theme">Restablecer el tema predeterminado</string>
+    <string name="vision_preview">Vista previa de visión</string>
+    <string name="vision_preview_desc">Muestra toda la app a través de un filtro de visión del color — experimenta tu propia interfaz como la ven otras personas. Vista previa sRGB aproximada (Android 12+); la pestaña de Visión usa el modelo preciso de Machado sobre colores individuales.</string>
+    <string name="preview_off">Desactivada</string>
+    <string name="about">Acerca de</string>
+    <string name="about_body">Chromatic enseña teoría del color haciendo: lecciones, rueda de armonías, herramientas de contraste WCAG y APCA, paletas tonales, mezcla de degradados perceptual y simulaciones de visión — todo con un motor de color completamente probado.</string>
+    <string name="fully_offline">Sin conexión — ningún dato sale de tu dispositivo a menos que decidas compartirlo.</string>
+    <string name="crash_reports">Informes de fallos</string>
+    <string name="crash_reports_empty">Sin informes de fallos. Si la app se cierra inesperadamente, los detalles se recogerán aquí — no se envía nada salvo que decidas compartirlo.</string>
+    <string name="crash_share">Compartir informes de fallos</string>
+    <string name="crash_clear">Borrar todo</string>
+    <string name="crash_none_to_share">No hay informes de fallos que compartir</string>
+    <string name="help">Ayuda</string>
+    <string name="help_reference">Referencia rápida</string>
+    <string name="help_ref_aa">AA texto: 4.5:1 · AA texto grande: 3.0:1 · AAA texto: 7.0:1 · Componentes: 3.0:1</string>
+    <string name="help_ref_tint">Tinte = +blanco (más claro) · Sombra = +negro (más oscuro) · Tono = +gris (más apagado)</string>
+    <string name="help_ref_603010">60-30-10: dominante 60%, secundario 30%, acento 10%.</string>
+    <string name="help_contact">Contacto</string>
+    <string name="help_email">Escribir a soporte</string>
+    <string name="help_issues">Reportar un problema en GitHub</string>
+    <string name="help_faq_accounts">¿Necesito una cuenta? No — Chromatic no tiene cuentas ni acceso a la red.</string>
+    <string name="help_faq_storage">¿Dónde se guardan mis paletas? Solo en este dispositivo, en el almacenamiento privado de la app, incluidas en las copias de seguridad de Android.</string>
+    <string name="help_faq_internet">¿Por qué no hay permiso de internet? Por diseño: la app no puede conectarse, así que tus colores nunca salen de tu dispositivo.</string>
+    <string name="back">Atrás</string>
+</resources>

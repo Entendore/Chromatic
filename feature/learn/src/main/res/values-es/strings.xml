@@ -1,0 +1,139 @@
+<resources>
+    <string name="home_title">Chromatic</string>
+    <string name="your_progress">Tu progreso</string>
+    <string name="pick_a_lesson">Elige una lección para leerla aquí</string>
+    <string name="back">Atrás</string>
+    <string name="lessons_header">Lecciones</string>
+    <string name="stat_quizzes">Tests jugados</string>
+    <string name="stat_best_knowledge">Mejor conocimiento</string>
+    <string name="stat_best_hue">Mejor tono</string>
+
+    <plurals name="lessons_complete_summary">
+        <item quantity="one">%1$d de %2$d lección completada</item>
+        <item quantity="other">%1$d de %2$d lecciones completadas</item>
+    </plurals>
+    <plurals name="streak_days">
+        <item quantity="one">🔥 racha de %1$d día — ¡no la rompas!</item>
+        <item quantity="other">🔥 racha de %1$d días — ¡no la rompas!</item>
+    </plurals>
+
+    <string name="toolbox_challenges">Desafíos de color</string>
+    <string name="toolbox_challenges_desc">Pon a prueba tu conocimiento, entrena tu ojo</string>
+    <string name="toolbox_theme_studio">Estudio de temas</string>
+    <string name="toolbox_theme_studio_desc">Un color semilla → un tema completo y verificado</string>
+    <string name="toolbox_mix_lab">Laboratorio de mezclas</string>
+    <string name="toolbox_mix_lab_desc">Luz aditiva frente a pigmento sustractivo</string>
+    <string name="toolbox_illusion_lab">Laboratorio de ilusiones</string>
+    <string name="toolbox_illusion_lab_desc">Comprueba el contraste simultáneo con tus propios ojos</string>
+    <string name="toolbox_vision">Simulador de visión</string>
+    <string name="toolbox_vision_desc">Mira los diseños con otros ojos</string>
+    <string name="toolbox_gradient">Laboratorio de degradados</string>
+    <string name="toolbox_gradient_desc">Mezcla colores de forma perceptualmente correcta</string>
+    <string name="toolbox_contrast_grid">Cuadrícula de contraste</string>
+    <string name="toolbox_contrast_grid_desc">Cada par tonal, medido y calificado</string>
+
+    <string name="badge_first_steps">Primeros pasos</string>
+    <string name="badge_flawless">Impecable</string>
+    <string name="badge_sharp_eye">Ojo fino</string>
+    <string name="badge_dedicated">Constante</string>
+    <string name="badge_on_a_roll">En racha</string>
+
+    <string name="practice_harmony">Practicar en la rueda de armonías</string>
+    <string name="practice_contrast">Practicar con el comprobador de contraste</string>
+    <string name="practice_palette">Practicar en el creador de paletas</string>
+    <string name="practice_grid">Explorar la cuadrícula de contraste</string>
+    <string name="practice_illusion">Practicar en el laboratorio de ilusiones</string>
+    <string name="practice_mix">Practicar en el laboratorio de mezclas</string>
+    <string name="practice_theme">Crear un tema completo desde un color</string>
+
+    <string name="category_foundations">Fundamentos</string>
+    <string name="category_schemes">Esquemas</string>
+    <string name="category_perception">Percepción</string>
+    <string name="category_application">Aplicación</string>
+
+    <string name="key_terms">Términos clave</string>
+    <string name="apply_it">Ponlo en práctica</string>
+    <string name="mark_complete">Marcar como completada</string>
+    <string name="completed">Completada</string>
+
+    <string name="onboarding_start">Empezar a aprender</string>
+    <string name="onboarding_skip">Saltar intro</string>
+    <string name="onboarding_next">Siguiente</string>
+    <string name="onboarding_1_title">Aprende haciendo</string>
+    <string name="onboarding_1_body">Rueda de armonías, comprobador de contraste WCAG, paletas tonales, simulación de visión y más — cada herramienta usa el mismo motor que enseñan las lecciones.</string>
+    <string name="onboarding_2_title">Privado por diseño</string>
+    <string name="onboarding_2_body">Chromatic no tiene permiso de internet — el propio Android le impide conectarse. Sin cuentas, sin analíticas, sin rastreo. Los informes de fallos permanecen en tu dispositivo salvo que decidas compartirlos.</string>
+    <string name="onboarding_3_title">Tuyo para siempre</string>
+    <string name="onboarding_3_body">Un pago, todo incluido, actualizaciones gratuitas. Y el Estudio de temas puede cambiar el tema de esta misma app desde un solo color — pruébalo primero.</string>
+
+    <string name="lesson_1_title">El círculo cromático</string>
+    <string name="lesson_1_summary">Por qué los tonos viven en un círculo — y cómo esa única forma desbloquea todas las reglas de armonía.</string>
+    <string name="lesson_1_s1_heading">De Newton a tu pantalla</string>
+    <string name="lesson_1_s1_body">En 1666 Isaac Newton hizo pasar la luz por un prisma y ordenó los colores resultantes en un círculo, inventando el círculo cromático. Los artistas construyeron después el círculo RYB (rojo-amarillo-azul) para la pintura, mientras que las pantallas usan luz RGB y las imprentas tinta CMY. El modelo cambia los tonos exactos, pero la función del círculo es siempre la misma: es un mapa de relaciones.</string>
+    <string name="lesson_1_s2_heading">Cómo leer el círculo</string>
+    <string name="lesson_1_s2_body">Los colores primarios no se pueden mezclar a partir de otros. Los secundarios se sitúan entre dos primarios y los terciarios entre un primario y un secundario. Las posiciones importan más que los nombres: los colores opuestos son complementarios y los vecinos son familia.</string>
+    <string name="lesson_1_t1_term">Tono</string>
+    <string name="lesson_1_t1_def">La familia del color en sí — lo que hace que el rojo sea \"rojo\" sin importar cuán claro, oscuro o apagado sea.</string>
+    <string name="lesson_1_t2_term">Complementario</string>
+    <string name="lesson_1_t2_def">El tono directamente opuesto en el círculo; mezclar complementarios produce neutros.</string>
+
+    <string name="lesson_2_title">Tono, saturación y luminosidad</string>
+    <string name="lesson_2_summary">Cada color tiene tres controles. Dominándolos generas miles de variaciones controladas en lugar de adivinar.</string>
+    <string name="lesson_2_s1_heading">Las tres dimensiones</string>
+    <string name="lesson_2_s1_body">El tono es qué color es (0–360°). La saturación es cuán intenso frente a gris es. La luminosidad (o valor) es cuánto blanco o negro contiene. HSL y HSV son solo dos formas ligeramente distintas de convertir esos controles en números RGB.</string>
+    <string name="lesson_2_s2_heading">Tintes, sombras y tonos</string>
+    <string name="lesson_2_s2_body">Un tinte añade blanco (más claro), una sombra añade negro (más oscuro) y un tono añade gris (más apagado). Los sistemas de diseño profesionales se construyen sobre escalas tonales — un tono recorrido en muchos niveles de luminosidad — porque garantizan que cada combinación siga en la misma familia.</string>
+    <string name="lesson_2_s2_b1">Las paletas apagadas (baja saturación) se perciben calmadas y profesionales.</string>
+    <string name="lesson_2_s2_b2">Un contraste extremo de luminosidad crea jerarquía sin nuevos tonos.</string>
+    <string name="lesson_2_s2_b3">Las pantallas funcionan en RGB, pero las personas razonan en HSL — convierte constantemente.</string>
+    <string name="lesson_2_t1_term">Tinte</string>
+    <string name="lesson_2_t1_def">Tono + blanco → más claro.</string>
+    <string name="lesson_2_t2_term">Sombra</string>
+    <string name="lesson_2_t2_def">Tono + negro → más oscuro.</string>
+    <string name="lesson_2_t3_term">Tono</string>
+    <string name="lesson_2_t3_def">Tono + gris → más apagado.</string>
+
+    <string name="lesson_3_title">Armonías del color</string>
+    <string name="lesson_3_summary">Las armonías son recetas para combinar tonos de forma intencional y no accidental.</string>
+    <string name="lesson_3_s1_heading">Las seis clásicas</string>
+    <string name="lesson_3_s1_body">Las parejas complementarias maximizan el contraste; las tríadas análogas lo minimizan; los esquemas triádicos, complementarios divididos y tetrádicos viven en medio. El monocromático renuncia a la variedad de tonos y varía la luminosidad. Cada receta responde una pregunta distinta: ¿quieres tensión, calma o riqueza?</string>
+    <string name="lesson_3_s2_heading">La regla 60-30-10</string>
+    <string name="lesson_3_s2_body">Una armonía no es una democracia. Dedica ~60% del diseño a tu color dominante, 30% al secundario y 10% al acento. El acento — a menudo el complementario — tiene fuerza precisamente porque es escaso. Los repartos iguales de colores contrastantes se ven ruidosos e irresueltos.</string>
+
+    <string name="lesson_4_title">Temperatura y contexto</string>
+    <string name="lesson_4_summary">El color no existe aislado. Los vecinos, la calidez y la expectativa curvan lo que el ojo reporta.</string>
+    <string name="lesson_4_s1_heading">Contraste simultáneo</string>
+    <string name="lesson_4_s1_body">El mismo gris se ve más oscuro sobre blanco y más claro sobre negro, y el tono de un color se juzga respecto a su entorno. Por eso los colores siempre deben evaluarse en contexto — una paleta que funciona en muestras puede fallar en un diseño.</string>
+    <string name="lesson_4_s2_heading">Lo cálido avanza, lo frío retrocede</string>
+    <string name="lesson_4_s2_body">Rojos, naranjas y amarillos se sienten cercanos y urgentes; azules y verdes, lejanos y tranquilos. Los diseñadores lo aprovechan: colores cálidos para llamadas a la acción, fríos para fondos y estructura.</string>
+
+    <string name="lesson_5_title">Psicología del color</string>
+    <string name="lesson_5_summary">Los colores cargan asociaciones — pero son tendencias estadísticas, no leyes. El contexto y la cultura deciden.</string>
+    <string name="lesson_5_s1_heading">Asociaciones (occidentales) comunes</string>
+    <string name="lesson_5_s1_body">El rojo señala urgencia, apetito y error. El azul transmite confianza y calma — por eso los bancos. El verde sugiere crecimiento, salud y éxito. El amarillo es optimista pero fatiga a gran escala. El púrpura implica lujo o creatividad. El negro es premium; el blanco, limpio.</string>
+    <string name="lesson_5_s2_heading">Las advertencias que importan</string>
+    <string name="lesson_5_s2_body">Las asociaciones cambian entre culturas (el blanco es luto en partes de Asia) y entre contextos (el rojo es \'oferta\' en retail pero \'error\' en software). La estrategia fiable: elige asociaciones que coincidan con tu producto y valida con usuarios reales — nunca apoyes el significado solo en el color.</string>
+
+    <string name="lesson_6_title">Contraste y accesibilidad</string>
+    <string name="lesson_6_summary">WCAG convierte \'¿se lee bien?\' en números verificables — y tus herramientas pueden corregirlos automáticamente.</string>
+    <string name="lesson_6_s1_heading">Cómo se mide el contraste</string>
+    <string name="lesson_6_s1_body">WCAG calcula la luminancia relativa de cada color a partir de sus canales RGB linealizados y toma el cociente entre el más claro y el más oscuro más 0.05. El resultado va de 1:1 (idénticos) a 21:1 (negro sobre blanco). Como la luminancia es no lineal, dos grises medios pueden fallar aunque se vean distintos.</string>
+    <string name="lesson_6_s2_heading">Los umbrales</string>
+    <string name="lesson_6_s2_body">El texto normal necesita 4.5:1 para AA y 7:1 para AAA. El texto grande (≈18pt negrita / 24pt) necesita 3.0:1. Los componentes de UI y los objetos gráficos necesitan 3.0:1 contra colores adyacentes. Y nunca codifiques significado solo con color — acompañalo de iconos, etiquetas o patrones.</string>
+    <string name="lesson_6_s2_b1">Texto normal AA: 4.5:1</string>
+    <string name="lesson_6_s2_b2">Texto grande AA: 3.0:1</string>
+    <string name="lesson_6_s2_b3">Texto normal AAA: 7.0:1</string>
+    <string name="lesson_6_s2_b4">Componentes de UI: 3.0:1</string>
+    <string name="lesson_6_t1_term">Luminancia relativa</string>
+    <string name="lesson_6_t1_def">Brillo percibido de un color en una escala 0–1, ponderado por la visión humana (el verde domina).</string>
+
+    <string name="lesson_7_title">Aplicar el color al diseño de producto</string>
+    <string name="lesson_7_summary">Cómo la teoría se convierte en una app publicada: roles semánticos, escalas tonales, modo oscuro y contención.</string>
+    <string name="lesson_7_s1_heading">Roles semánticos, no colores crudos</string>
+    <string name="lesson_7_s1_body">Los sistemas de diseño asignan colores a roles — primary, on-primary, surface, surface-variant, error — y los componentes referencian los roles. Esa abstracción es lo que hace posibles los temas, el modo oscuro y el color dinámico de Material You: cambia el mapeo, conserva los componentes.</string>
+    <string name="lesson_7_s2_heading">Modo oscuro y contención</string>
+    <string name="lesson_7_s2_body">Los temas oscuros no son fotos invertidas: conserva el tono, invierte la rampa de luminosidad y usa colores ligeramente desaturados para evitar vibración sobre superficies oscuras. Limita cada pantalla a un solo momento digno de acento; si todo está enfatizado, nada lo está.</string>
+    <string name="lesson_7_s2_b1">Construye una escala tonal completa desde tu tono de marca, no un solo hex.</string>
+    <string name="lesson_7_s2_b2">Deriva el texto \'on-color\' con una comprobación de contraste, no a ojo.</string>
+    <string name="lesson_7_s2_b3">Prueba las paletas con deficiencia de visión del color antes de publicar.</string>
+</resources>

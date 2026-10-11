@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application
+        android:label="@string/wear_app_name"
+        android:allowBackup="false"
+        android:theme="@android:style/Theme.DeviceDefault">
+
+        <service
+            android:name=".PaletteTileService"
+            android:exported="true"
+            android:label="@string/tile_label"
+            android:icon="@drawable/ic_tile_preview">
+            <intent-filter>
+                <action android:name="androidx.wear.tiles.action.BIND_TILE_PROVIDER" />
+            </intent-filter>
+            <meta-data android:name="androidx.wear.tiles.PREVIEW" android:resource="@drawable/ic_tile_preview" />
+        </service>
+
+        <service
+            android:name=".ColorComplicationService"
+            android:exported="true"
+            android:label="@string/complication_label">
+            <intent-filter>
+                <action android:name="androidx.wear.watchface.complications.data_source.COMPPLICATION_DATA_SOURCE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.support.wearable.complications.SUPPORTED_TYPES"
+                android:value="SHORT_TEXT" />
+        </service>
+    </application>
+</manifest>

@@ -1,0 +1,139 @@
+<resources>
+    <string name="home_title">Chromatic</string>
+    <string name="your_progress">Your progress</string>
+    <string name="pick_a_lesson">Pick a lesson to read it here</string>
+    <string name="back">Back</string>
+    <string name="lessons_header">Lessons</string>
+    <string name="stat_quizzes">Quizzes played</string>
+    <string name="stat_best_knowledge">Best knowledge</string>
+    <string name="stat_best_hue">Best hue match</string>
+
+    <plurals name="lessons_complete_summary">
+        <item quantity="one">%1$d of %2$d lesson complete</item>
+        <item quantity="other">%1$d of %2$d lessons complete</item>
+    </plurals>
+    <plurals name="streak_days">
+        <item quantity="one">🔥 %1$d-day streak — keep it alive!</item>
+        <item quantity="other">🔥 %1$d-day streak — keep it alive!</item>
+    </plurals>
+
+    <string name="toolbox_challenges">Color challenges</string>
+    <string name="toolbox_challenges_desc">Quiz your knowledge, train your eye</string>
+    <string name="toolbox_theme_studio">Theme studio</string>
+    <string name="toolbox_theme_studio_desc">One seed color → a full, verified app theme</string>
+    <string name="toolbox_mix_lab">Mix lab</string>
+    <string name="toolbox_mix_lab_desc">Additive light vs subtractive pigment</string>
+    <string name="toolbox_illusion_lab">Illusion lab</string>
+    <string name="toolbox_illusion_lab_desc">See simultaneous contrast with your own eyes</string>
+    <string name="toolbox_vision">Vision simulator</string>
+    <string name="toolbox_vision_desc">See designs through other eyes</string>
+    <string name="toolbox_gradient">Gradient lab</string>
+    <string name="toolbox_gradient_desc">Blend colors the perceptually-correct way</string>
+    <string name="toolbox_contrast_grid">Contrast grid</string>
+    <string name="toolbox_contrast_grid_desc">Every tone pair, measured and graded</string>
+
+    <string name="badge_first_steps">First Steps</string>
+    <string name="badge_flawless">Flawless</string>
+    <string name="badge_sharp_eye">Sharp Eye</string>
+    <string name="badge_dedicated">Dedicated</string>
+    <string name="badge_on_a_roll">On a Roll</string>
+
+    <string name="practice_harmony">Practice on the harmony wheel</string>
+    <string name="practice_contrast">Practice with the contrast checker</string>
+    <string name="practice_palette">Practice in the palette builder</string>
+    <string name="practice_grid">Explore the contrast grid</string>
+    <string name="practice_illusion">Practice in the illusion lab</string>
+    <string name="practice_mix">Practice in the mix lab</string>
+    <string name="practice_theme">Build a full theme from one color</string>
+
+    <string name="category_foundations">Foundations</string>
+    <string name="category_schemes">Schemes</string>
+    <string name="category_perception">Perception</string>
+    <string name="category_application">Application</string>
+
+    <string name="key_terms">Key terms</string>
+    <string name="apply_it">Apply it</string>
+    <string name="mark_complete">Mark as complete</string>
+    <string name="completed">Completed</string>
+
+    <string name="onboarding_start">Start learning</string>
+    <string name="onboarding_skip">Skip intro</string>
+    <string name="onboarding_next">Next</string>
+    <string name="onboarding_1_title">Learn by doing</string>
+    <string name="onboarding_1_body">A harmony wheel, a WCAG contrast checker, tonal palettes, vision simulation and more — every tool runs on the same engine the lessons teach.</string>
+    <string name="onboarding_2_title">Private by design</string>
+    <string name="onboarding_2_body">Chromatic holds no internet permission — Android itself prevents it from going online. No accounts, no analytics, no tracking. Crash reports stay on your device unless you share them.</string>
+    <string name="onboarding_3_title">Yours forever</string>
+    <string name="onboarding_3_body">One payment, everything included, free updates. And Theme Studio can re-theme this very app from a single color — try it first.</string>
+
+    <string name="lesson_1_title">The Color Wheel</string>
+    <string name="lesson_1_summary">Why hues live on a circle — and how that one shape unlocks every harmony rule you\'ll ever use.</string>
+    <string name="lesson_1_s1_heading">From Newton to your screen</string>
+    <string name="lesson_1_s1_body">In 1666 Isaac Newton bent light through a prism and arranged the resulting colors in a circle, inventing the color wheel. Artists later built the traditional Red-Yellow-Blue (RYB) wheel for paint, while screens use Red-Green-Blue (RGB) light and printers use Cyan-Magenta-Yellow (CMY) ink. The model changes the exact hues, but the wheel\'s job is always the same: it is a map of relationships.</string>
+    <string name="lesson_1_s2_heading">Reading the wheel</string>
+    <string name="lesson_1_s2_body">Primary colors can\'t be mixed from others. Secondaries sit halfway between two primaries, and tertiaries between a primary and a secondary. The positions matter more than the names: colors directly opposite each other are complements, and neighbors are family.</string>
+    <string name="lesson_1_t1_term">Hue</string>
+    <string name="lesson_1_t1_def">The color family itself — what makes red \'red\' regardless of how light, dark, or dull it is.</string>
+    <string name="lesson_1_t2_term">Complement</string>
+    <string name="lesson_1_t2_def">The hue directly opposite on the wheel; mixing complements produces neutrals.</string>
+
+    <string name="lesson_2_title">Hue, Saturation &amp; Lightness</string>
+    <string name="lesson_2_summary">Every color has three dials. Master them and you can generate thousands of controlled variations instead of guessing.</string>
+    <string name="lesson_2_s1_heading">The three dimensions</string>
+    <string name="lesson_2_s1_body">Hue is which color it is (0–360°). Saturation is how intense vs. gray it is. Lightness (or Value) is how much white or black it contains. HSL and HSV are just two slightly different ways of turning those dials into RGB numbers.</string>
+    <string name="lesson_2_s2_heading">Tints, shades, and tones</string>
+    <string name="lesson_2_s2_body">A tint adds white (lighter), a shade adds black (darker), and a tone adds gray (duller). Professional design systems are built on tonal scales — one hue stepped through many lightness levels — because they guarantee every combination stays in the same family.</string>
+    <string name="lesson_2_s2_b1">Muted (low-saturation) palettes read as calm and professional.</string>
+    <string name="lesson_2_s2_b2">Extreme lightness contrast creates hierarchy without new hues.</string>
+    <string name="lesson_2_s2_b3">Screens work in RGB, but humans reason in HSL — convert constantly.</string>
+    <string name="lesson_2_t1_term">Tint</string>
+    <string name="lesson_2_t1_def">Hue + white → lighter.</string>
+    <string name="lesson_2_t2_term">Shade</string>
+    <string name="lesson_2_t2_def">Hue + black → darker.</string>
+    <string name="lesson_2_t3_term">Tone</string>
+    <string name="lesson_2_t3_def">Hue + gray → duller.</string>
+
+    <string name="lesson_3_title">Color Harmonies</string>
+    <string name="lesson_3_summary">Harmonies are recipes for combining hues so they look intentional instead of accidental.</string>
+    <string name="lesson_3_s1_heading">The classic six</string>
+    <string name="lesson_3_s1_body">Complementary pairs maximize contrast; analogous trios minimize it; triadic, split-complementary, and tetradic schemes live in between. Monochromatic drops hue variety entirely and varies lightness. Each recipe answers a different question: do you want tension, calm, or richness?</string>
+    <string name="lesson_3_s2_heading">The 60-30-10 rule</string>
+    <string name="lesson_3_s2_body">A harmony is not a democracy. Give roughly 60% of a design to your dominant color, 30% to the secondary, and 10% to the accent. The accent — often the complement — earns its punch precisely because it is rare. Equal shares of contrasting colors look loud and unresolved.</string>
+
+    <string name="lesson_4_title">Temperature &amp; Context</string>
+    <string name="lesson_4_summary">Color doesn\'t exist in isolation. Neighbors, warmth, and expectation all bend what the eye reports.</string>
+    <string name="lesson_4_s1_heading">Simultaneous contrast</string>
+    <string name="lesson_4_s1_body">The exact same gray looks darker on white and lighter on black, and a color\'s hue is judged relative to its surroundings. This is why colors must always be evaluated in context — a palette that works in swatches can fail in a layout.</string>
+    <string name="lesson_4_s2_heading">Warm advances, cool recedes</string>
+    <string name="lesson_4_s2_body">Reds, oranges, and yellows feel closer and more urgent; blues and greens feel farther and calmer. Designers exploit this: warm colors for calls to action, cool colors for backgrounds and structure.</string>
+
+    <string name="lesson_5_title">Color Psychology</string>
+    <string name="lesson_5_summary">Colors carry associations — but they are statistical tendencies, not laws. Context and culture decide.</string>
+    <string name="lesson_5_s1_heading">Common (Western) associations</string>
+    <string name="lesson_5_s1_body">Red signals urgency, appetite, and error. Blue reads as trustworthy and calm — hence banks. Green suggests growth, health, and success. Yellow is optimistic but fatigues at scale. Purple implies luxury or creativity. Black is premium; white is clean.</string>
+    <string name="lesson_5_s2_heading">The caveats that matter</string>
+    <string name="lesson_5_s2_body">Associations shift across cultures (white mourns in parts of Asia) and across context (red is \'sale\' in retail but \'error\' in software). The reliable strategy: pick associations that match your product, then validate with real users — never rely on color alone to carry meaning.</string>
+
+    <string name="lesson_6_title">Contrast &amp; Accessibility</string>
+    <string name="lesson_6_summary">WCAG turns \'is this readable?\' into numbers you can verify — and your tools can automatically fix.</string>
+    <string name="lesson_6_s1_heading">How contrast is measured</string>
+    <string name="lesson_6_s1_body">WCAG computes relative luminance from each color\'s linearized RGB channels, then takes the ratio between the lighter and darker color plus 0.05. The result spans 1:1 (identical) to 21:1 (black on white). Because luminance is nonlinear, two mid-greys can fail even when they look different.</string>
+    <string name="lesson_6_s2_heading">The thresholds</string>
+    <string name="lesson_6_s2_body">Body text needs 4.5:1 for AA and 7:1 for AAA. Large text (≈18pt bold / 24pt) needs 3.0:1. UI components and graphical objects need 3.0:1 against adjacent colors. And never encode meaning in color alone — pair it with icons, labels, or patterns.</string>
+    <string name="lesson_6_s2_b1">AA normal text: 4.5:1</string>
+    <string name="lesson_6_s2_b2">AA large text: 3.0:1</string>
+    <string name="lesson_6_s2_b3">AAA normal text: 7.0:1</string>
+    <string name="lesson_6_s2_b4">UI components: 3.0:1</string>
+    <string name="lesson_6_t1_term">Relative luminance</string>
+    <string name="lesson_6_t1_def">Perceived brightness of a color on a 0–1 scale, weighted for human vision (green dominates).</string>
+
+    <string name="lesson_7_title">Applying Color in Product Design</string>
+    <string name="lesson_7_summary">How the theory becomes a shipped app: semantic roles, tonal scales, dark mode, and restraint.</string>
+    <string name="lesson_7_s1_heading">Semantic roles, not raw colors</string>
+    <string name="lesson_7_s1_body">Design systems assign colors to roles — primary, on-primary, surface, surface-variant, error — and components reference the roles. That abstraction is what makes themes, dark mode, and Material You dynamic color possible: swap the role mapping, keep the components.</string>
+    <string name="lesson_7_s2_heading">Dark mode and restraint</string>
+    <string name="lesson_7_s2_body">Dark themes are not inverted photos: keep the hue, invert the lightness ramp, and use slightly desaturated tones to avoid vibration on dark surfaces. Limit a screen to one accent-worthy moment; if everything is emphasized, nothing is.</string>
+    <string name="lesson_7_s2_b1">Build a full tonal scale from your brand hue, not a single hex.</string>
+    <string name="lesson_7_s2_b2">Derive \'on-color\' text with a contrast check, not by eyeballing.</string>
+    <string name="lesson_7_s2_b3">Test palettes under color-vision deficiency before shipping.</string>
+</resources>

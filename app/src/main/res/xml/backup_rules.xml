@@ -1,0 +1,4 @@
+<full-backup-content>
+    <include domain="database" path="chromatic.db" />
+    <include domain="file" path="datastore/" />
+</full-backup-content>

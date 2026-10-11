@@ -1,0 +1,164 @@
+<resources>
+    <string name="copied">%1$s copied</string>
+    <string name="random_color">Random color</string>
+    <string name="swap_colors">Swap colors</string>
+    <string name="percent_of_image">%1$d%% of image</string>
+    <string name="use_as_base">Set as base</string>
+    <string name="delete">Delete</string>
+    <string name="export">Export %1$s</string>
+    <string name="inspected_hint">Tap a swatch to copy · long-press to inspect</string>
+
+    <string name="harmony_title">Harmony explorer</string>
+    <string name="harmony_wheel_hint">Drag anywhere on the wheel — angle sets hue, distance from center sets saturation.</string>
+    <string name="axis_hue">Hue</string>
+    <string name="axis_lightness_value">Lightness (value)</string>
+    <string name="harmony_scheme">Harmony scheme</string>
+    <string name="hue_spacing">Hue spacing</string>
+    <string name="mode_hsv">HSV</string>
+    <string name="mode_oklch">OKLCH</string>
+    <string name="mode_hsv_note">Hue steps measured on the classic painter\'s wheel — what most tools do.</string>
+    <string name="mode_oklch_note">Hue steps measured in perceptual space — every step is equally visible to the eye.</string>
+    <string name="harmony_palette">Generated palette (tap a swatch to copy)</string>
+    <string name="harmony_applied">Applied to a real UI</string>
+    <string name="preview_cvd_safe">Preview: color-blind safe version</string>
+    <string name="hide_cvd_safe">Hide CVD-safe version</string>
+    <string name="cvd_safe_result">Rotated %1$d hue(s) so every pair stays ΔE ≥ 0.10 apart under deuteranopia (smallest simulated gap now %2$s). Compare with the strip above in the Vision simulator.</string>
+
+    <string name="harmony_complementary">Complementary</string>
+    <string name="harmony_analogous">Analogous</string>
+    <string name="harmony_triadic">Triadic</string>
+    <string name="harmony_split">Split-complementary</string>
+    <string name="harmony_tetradic">Tetradic</string>
+    <string name="harmony_mono">Monochromatic</string>
+    <string name="harmony_complementary_desc">Two hues opposite each other on the wheel. Maximum contrast and energy — use one as dominant and the other sparingly as an accent.</string>
+    <string name="harmony_analogous_desc">Three neighbors on the wheel. Calm and cohesive — pick one to dominate so the scheme doesn\'t wash out.</string>
+    <string name="harmony_triadic_desc">Three hues 120° apart. Vibrant yet balanced — let one color lead and mute the other two.</string>
+    <string name="harmony_split_desc">A base plus the two neighbors of its complement. Nearly as much contrast as complementary, with less visual tension.</string>
+    <string name="harmony_tetradic_desc">Two complementary pairs (90° apart). The richest scheme — it only works when one color clearly dominates.</string>
+    <string name="harmony_mono_desc">A single hue in multiple tints and shades. Effortlessly elegant — differentiate with lightness, not hue.</string>
+
+    <string name="contrast_title">Contrast checker</string>
+    <string name="foreground">Foreground</string>
+    <string name="background">Background</string>
+    <string name="contrast_ratio">contrast ratio</string>
+    <string name="auto_fix_aa">Auto-fix foreground to AA (4.5:1)</string>
+    <string name="fix_feedback">Adjusted to %1$s — now %2$s on the background.</string>
+    <string name="check_vision">Check this pairing with the Vision simulator</string>
+    <string name="wcag_note">WCAG 2.1 thresholds — body text: 4.5:1 (AA), 7:1 (AAA). Large text (≥18pt bold or 24pt): 3:1. UI components and icons: 3:1 against adjacent colors.</string>
+    <string name="apca_note">APCA is the perceptual model proposed for WCAG 3 — it accounts for polarity and screen rendering better than the 2.x ratio. Values ≥ 75 Lc suit body text; ≥ 60 works for larger text.</string>
+    <string name="apca_polarity_dark">dark text on light background</string>
+    <string name="apca_polarity_light">light text on dark background</string>
+    <string name="live_preview">Live preview</string>
+    <string name="pick_color">Pick color</string>
+
+    <string name="grid_title">Contrast grid</string>
+    <string name="grid_intro">Every tonal color as text (rows) on every tonal color as background (columns). Watch the pass/fail frontier hug the diagonal — similar lightness never reads.</string>
+    <string name="grid_view_real">Real colors</string>
+    <string name="grid_view_heatmap">Grade heatmap</string>
+    <string name="grid_copy_pair">Copy pair (%1$s on %2$s)</string>
+    <string name="grid_same_tone">Same tone = 1:1 — the diagonal is always unreadable.</string>
+    <string name="grid_note">Rows choose the text color, columns the background. Only pairs far apart in lightness pass — which is exactly why design systems reserve dark tones for text on light surfaces and never place body text on similarly lit containers.</string>
+    <string name="grade_fail">Fail</string>
+    <string name="grade_large">Large only</string>
+    <string name="grade_aa">AA</string>
+    <string name="grade_aaa">AAA</string>
+    <string name="grid_cell_a11y">Tone %1$d text on tone %2$d — ratio %3$s to 1, %4$s</string>
+
+    <plurals name="grid_pairings_pass">
+        <item quantity="one">%1$d of 100 pairings passes AA for body text.</item>
+        <item quantity="other">%1$d of 100 pairings pass AA for body text.</item>
+    </plurals>
+
+    <string name="builder_title">Palette builder</string>
+    <string name="base_color_label">Base</string>
+    <string name="tonal_scale">Tonal scale (Material-style)</string>
+    <string name="harmony_variations">Harmony variations</string>
+    <string name="extract_from_photo">Extract from a photo</string>
+    <string name="choose_photo">Choose a photo</string>
+    <string name="extract_hint">Tap a swatch to make it the builder base and generate a tonal scale from it.</string>
+    <string name="style_palettes">Style palettes</string>
+    <string name="regenerate">Regenerate</string>
+    <string name="save">Save</string>
+    <string name="name_label">Name</string>
+    <string name="saved_palettes">Saved palettes</string>
+    <string name="delete_palette">Delete %1$s</string>
+    <string name="palette_deleted">%1$s deleted</string>
+    <string name="undo">Undo</string>
+    <string name="send_to_theme_studio">Send base to Theme Studio</string>
+    <string name="axis_saturation">Saturation</string>
+    <string name="axis_lightness">Lightness</string>
+    <string name="pick_base">Pick base color</string>
+    <string name="style_pastel">Pastel</string>
+    <string name="style_neon">Neon</string>
+    <string name="style_earth">Earth</string>
+    <string name="style_jewel">Jewel</string>
+    <string name="style_mono">Monochrome</string>
+    <string name="style_vintage">Vintage</string>
+
+    <string name="gradient_title">Gradient lab</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="blend_srgb">sRGB</string>
+    <string name="blend_linear">Linear sRGB</string>
+    <string name="blend_oklab">OKLab</string>
+    <string name="blend_srgb_note">What most tools do — fast, but midpoints go dark and muddy.</string>
+    <string name="blend_linear_note">Physically correct light mixing — midpoints stay bright.</string>
+    <string name="blend_oklab_note">Perceptually uniform — the smoothest, most even ramp.</string>
+    <string name="gradient_why">Why this matters</string>
+    <string name="gradient_why_body">Blending in sRGB averages the stored numbers, so midpoints skew dark and muddy. Linear-light blending is physically correct. OKLab blending is perceptually even — watch the mid swatch jump between modes; that jump is the banding you\'d ship.</string>
+    <string name="copy_css_gradient">Copy CSS gradient (%1$s)</string>
+    <string name="css_copied">CSS copied</string>
+
+    <string name="studio_title">Theme studio</string>
+    <string name="studio_intro">Every Material 3 app starts from one seed color. Watch a single hue become a full scheme — with every readable pair verified by the same WCAG math from lesson 6.</string>
+    <string name="seed_hue">Seed hue</string>
+    <string name="seed_saturation">Seed saturation</string>
+    <string name="scheme_preview">Scheme preview</string>
+    <string name="light_label">Light</string>
+    <string name="dark_label">Dark</string>
+    <string name="contrast_verification">Contrast verification</string>
+    <string name="verified_note">If any pair fell below 4.5:1, the generator already nudged its lightness — this list is proof, not decoration.</string>
+    <string name="copy_theme_code">Copy Compose light + dark theme code</string>
+    <string name="theme_code_copied">Compose theme copied — paste it into your ui/theme</string>
+    <string name="studio_how">How it works: the seed becomes an OKLCH hue. Five tonal palettes are built (vivid primary, muted secondary, hue-rotated tertiary, near-neutral surface and variant), roles pick tones following Material 3\'s lightness relationships, and chroma is gamut-mapped — never clipped — so hue survives.</string>
+    <string name="apply_to_chromatic">Apply to Chromatic</string>
+    <string name="theme_applied">Applied — this app now runs your scheme</string>
+    <string name="seed_from_photo">Seed from a photo</string>
+
+    <string name="mix_title">Mix lab</string>
+    <string name="mix_intro">Same two ingredients, two different physics. Screens ADD light (lesson: RGB). Pigments REMOVE it — each layer filters what the next can reflect.</string>
+    <string name="mix_presets">Try a classic recipe</string>
+    <string name="ingredient_a">Ingredient A</string>
+    <string name="ingredient_b">Ingredient B</string>
+    <string name="results_equal">Results — equal mix</string>
+    <string name="light_added">Light added</string>
+    <string name="screens_lights">Screens &amp; stage lights</string>
+    <string name="pigment_mixed">Pigment mixed</string>
+    <string name="paint_ink">Paint, ink, filters</string>
+    <string name="mix_notice">What to notice</string>
+    <string name="mix_notice_body">• Additive: more light → brighter. Complementary lights sum to white.\n• Subtractive: more pigment → darker. Complementary filters cancel to black.\n• This is why print uses CMY and screens use RGB — same wheel, opposite mixing rules.</string>
+    <string name="preset_red_green">Red + Green</string>
+    <string name="preset_blue_yellow">Blue + Yellow</string>
+    <string name="preset_red_cyan">Red + Cyan</string>
+
+    <string name="illusion_title">Illusion lab</string>
+    <string name="illusion_intro">Lesson 4 said the same color changes with its neighbors. Don\'t take the lesson\'s word for it — drive it yourself.</string>
+    <string name="on_light_surround">On a light surround</string>
+    <string name="on_dark_surround">On a dark surround</string>
+    <string name="reveal">Reveal — both centers are identical</string>
+    <string name="illusion_revealed">The left gray looked lighter sitting on the dark surround, the right one darker on the light surround — yet neither moved. Your visual system reports contrast, not absolute values.</string>
+    <string name="illusion_why">Why this matters</string>
+    <string name="illusion_why_body">This is exactly why the Contrast checker exists: never judge a color in isolation, and never trust \"it looks fine\" — measure it. Try copying the center color into the checker against both surrounds and watch the ratio barely move while your perception swings.</string>
+    <string name="surround_hue">Surround hue</string>
+    <string name="surround_saturation">Surround saturation</string>
+
+    <string name="simulate_title">Vision simulator</string>
+    <string name="simulate_intro">About 8% of men and 0.5% of women perceive color differently. Design that relies on hue alone excludes them.</string>
+    <string name="simulate_reference">Reference palette — original vs. simulated (precise Machado model)</string>
+    <string name="original">Original</string>
+    <string name="seen_with">Seen with %1$s</string>
+    <string name="try_photo">Try it on a photo</string>
+    <string name="choose_another_photo">Choose another photo</string>
+    <string name="photo_original">Original photo</string>
+    <string name="photo_simulated">Photo seen with %1$s (approximate sRGB preview)</string>
+</resources>

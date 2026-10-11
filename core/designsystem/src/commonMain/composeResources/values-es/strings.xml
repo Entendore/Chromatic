@@ -1,0 +1,31 @@
+<resources>
+    <string name="copy_hex_code">Copiar código hexadecimal</string>
+    <string name="inspect_color">Inspeccionar color</string>
+    <string name="swatch_selected">Seleccionado</string>
+    <string name="chip_passes">cumple</string>
+    <string name="chip_fails">no cumple</string>
+    <string name="picker_tab_hsl">HSL</string>
+    <string name="picker_tab_oklch">OKLCH</string>
+    <string name="picker_cancel">Cancelar</string>
+    <string name="picker_use_color">Usar color</string>
+    <string name="picker_gamut_note">El croma se limita al borde de sRGB para esta luminosidad y tono — todos los colores aquí son mostrables.</string>
+    <string name="axis_hue">Tono</string>
+    <string name="axis_saturation">Saturación</string>
+    <string name="axis_lightness">Luminosidad</string>
+    <string name="axis_chroma">Croma</string>
+    <string name="axis_lightness_oklch">Luminosidad (L)</string>
+    <string name="axis_chroma_oklch">Croma (C)</string>
+    <string name="axis_hue_oklch">Tono (H)</string>
+    <string name="cvd_normal">Tricromatía normal</string>
+    <string name="cvd_protanopia">Protanopía</string>
+    <string name="cvd_deuteranopia">Deuteranopía</string>
+    <string name="cvd_tritanopia">Tritanopía</string>
+    <string name="cvd_achromatopsia">Acromatopsia</string>
+    <string name="export_json">JSON</string>
+    <string name="export_css">CSS</string>
+    <string name="export_compose">Compose</string>
+    <string name="export_xml">XML</string>
+    <string name="inspector_on_white">sobre blanco %1$s:1</string>
+    <string name="inspector_on_black">sobre negro %1$s:1</string>
+    <string name="inspector_under_cvd">Con deficiencia de visión del color</string>
+</resources>
